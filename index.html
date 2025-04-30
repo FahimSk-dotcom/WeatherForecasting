@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="container">
+        <p id="title"><span><i class="fa-solid fa-cloud"></i></span>Weather Forecasting App</p>
+        <div class="form">
+            <p class="subHeading">Enter city name to know about the weather</p>
+            <input type="text" id="city" name="city" placeholder="Mumbai" required>
+            <button type="submit" id="btn" onclick="getWeather()">Weather <br></button>
+            <p class="subHeading2">Result : </p>
+            <div id="weather">
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
